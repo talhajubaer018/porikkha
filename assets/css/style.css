@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "SutonnyMJ";
+  src: local("SutonnyMJ"),
+    url('/assets//fonts/SutonnyMJ\ Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'SutonnyMJ', sans-serif;
+}
+.font-english {
+  font-family: sans-serif;
+}
+
+.home-bg {
+  background-image: url('../images/home-bg.png');
+}

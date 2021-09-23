@@ -1,10 +1,10 @@
 <template>
     <footer class="bg-customBlue-800 text-white pt-8">
-      <div class='container mx-auto grid grid-cols-4'>
+      <div class='container mx-auto grid grid-cols-1 sm:grid-cols-4 px-4 sm:px-0'>
         <div>
           <div class="logo py-6">
             <a href="/pages/index.vue">
-              <img class="w-36" src="../assets/images/logo.png" alt="" />
+              <img class="w-3/5 sm:w-36 mx-auto sm:mx-0" src="../assets/images/logo.png" alt="" />
             </a>
           </div>
           <p>
@@ -21,7 +21,7 @@
           <h5 class='pt-6 pb-4 text-2xl'>+880 1816-848931</h5>
           <h5 class='py-4 text-2xl font-english'>info@porikkhaa.com</h5>
         </div>
-        <div class='py-6'>
+        <div class='py-6 text-center sm:text-left'>
           <font-awesome-icon class='fa-3x mx-4' :icon="['fab', 'facebook']"/>
           <font-awesome-icon class='fa-3x mx-4' :icon="['fab', 'instagram']"/>
           <font-awesome-icon class='fa-3x mx-4' :icon="['fab', 'whatsapp']"/>
